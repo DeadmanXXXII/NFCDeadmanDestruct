@@ -177,15 +177,29 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout key.pem -out cert.pe
 3. Folder Structure
 
 NFCDeadmanDestruct/
+
 ├── app/
+
 │   ├── src/
+
 │   │   ├── main/
-│   │   │   ├── java/com/nosaj/deadman/MainActivity.kt
-│   │   │   ├── res/layout/activity_main.xml
+
+│   │   │   ├── 
+
+java/com/nosaj/deadman/MainActivity.kt
+
+│   │   │   ├── 
+
+res/layout/activity_main.xml
+
 ├── server/
+
 │   ├── app.py
+
 │   ├── cert.pem
+
 │   ├── key.pem
+
 ├── README.md
 
 
